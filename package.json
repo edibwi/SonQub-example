@@ -1,0 +1,14 @@
+{
+  "name": "sonarqube-flawed-demo",
+  "version": "1.0.0",
+  "description": "Intentionally flawed Node.js app used to demonstrate SonarQube findings",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}
